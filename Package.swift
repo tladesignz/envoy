@@ -10,7 +10,7 @@ let package = Package(
         .library(name: "GreatfireEnvoy", targets: ["GreatfireEnvoy"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/greatfire/SwiftyCurl", from: "0.4.3"),
+        .package(url: "https://github.com/greatfire/SwiftyCurl", from: "0.4.4"),
     ],
     targets: [
         .binaryTarget(
